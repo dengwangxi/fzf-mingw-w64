@@ -1,7 +1,7 @@
 package curses
 
 /*
-#include <ncurses.h>
+#include <ncurses/ncurses.h>
 #include <locale.h>
 #cgo !static LDFLAGS: -lncurses
 #cgo static LDFLAGS: -l:libncursesw.a -l:libtinfo.a -l:libgpm.a -ldl
@@ -246,7 +246,7 @@ func MaxY() int {
 
 func getch(nonblock bool) int {
 	b := make([]byte, 1)
-	syscall.SetNonblock(int(_in.Fd()), nonblock)
+	syscall.SetNonblock(syscall.Handle(_in.Fd()), nonblock)
 	_, err := _in.Read(b)
 	if err != nil {
 		return -1

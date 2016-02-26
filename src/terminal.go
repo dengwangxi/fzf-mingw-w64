@@ -740,7 +740,6 @@ func (t *Terminal) Loop() {
 		}()
 
 		resizeChan := make(chan os.Signal, 1)
-		signal.Notify(resizeChan, syscall.SIGWINCH)
 		go func() {
 			for {
 				<-resizeChan
