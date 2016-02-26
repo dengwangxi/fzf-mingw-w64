@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/junegunn/fzf/src/util"
+	"github.com/simnalamburt/fzf-mingw-w64/src/util"
 )
 
 const rangeEllipsis = 0

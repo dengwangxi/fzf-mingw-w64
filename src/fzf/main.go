@@ -1,6 +1,6 @@
 package main
 
-import "github.com/junegunn/fzf/src"
+import "github.com/simnalamburt/fzf-mingw-w64/src"
 
 func main() {
 	fzf.Run(fzf.ParseOptions())

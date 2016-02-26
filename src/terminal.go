@@ -13,8 +13,8 @@ import (
 	"syscall"
 	"time"
 
-	C "github.com/junegunn/fzf/src/curses"
-	"github.com/junegunn/fzf/src/util"
+	C "github.com/simnalamburt/fzf-mingw-w64/src/curses"
+	"github.com/simnalamburt/fzf-mingw-w64/src/util"
 
 	"github.com/junegunn/go-runewidth"
 )

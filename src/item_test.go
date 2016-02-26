@@ -5,7 +5,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/junegunn/fzf/src/curses"
+	"github.com/simnalamburt/fzf-mingw-w64/src/curses"
 )
 
 func TestOffsetSort(t *testing.T) {

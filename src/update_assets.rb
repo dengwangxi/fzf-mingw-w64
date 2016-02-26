@@ -9,7 +9,7 @@ if ARGV.length < 3
 end
 
 token, version, *files = ARGV
-base = "https://api.github.com/repos/junegunn/fzf-bin/releases"
+base = "https://api.github.com/repos/simnalamburt/fzf-mingw-w64-bin/releases"
 
 # List releases
 rels = JSON.parse(RestClient.get(base, :authorization => "token #{token}"))

@@ -233,8 +233,8 @@ if [ -n "$binary_error" ]; then
   if [ $binary_available -eq 0 ]; then
     echo "No prebuilt binary for $archi ..."
     if which go > /dev/null 2>&1; then
-      echo -n "Building binary (go get github.com/junegunn/fzf/src/fzf) ... "
-      if go get github.com/junegunn/fzf/src/fzf; then
+      echo -n "Building binary (go get github.com/simnalamburt/fzf-mingw-w64/src/fzf) ... "
+      if go get github.com/simnalamburt/fzf-mingw-w64/src/fzf; then
         echo "OK"
         link_fzf_in_path
       else

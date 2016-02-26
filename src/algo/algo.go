@@ -4,7 +4,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/junegunn/fzf/src/util"
+	"github.com/simnalamburt/fzf-mingw-w64/src/util"
 )
 
 /*
