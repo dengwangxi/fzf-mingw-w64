@@ -13,3 +13,6 @@ history.
 
 1.  Build `fzf-mingw-w64` with **MinGW-w64 Win64** shell. It won't work with
     MSYS2 shell.
+    
+1.  pacman -S ncurses ncurses-devel rub; fzf-mingw-w64/install, fzf-mingw-w64/fzf, cp fzf-mingw-w64/fzf /usr/bin,  gem install curses
+    
